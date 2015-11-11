@@ -5,7 +5,7 @@ import iii_conventions.TimeInterval.YEAR
 import iii_conventions.TimeInterval.DAY
 import iii_conventions.TimeInterval.WEEK
 
-fun MyDate.nextDay() = addTimeIntervals(DAY, 1)
+public fun MyDate.nextDay() = addTimeIntervals(DAY, 1)
 
 fun MyDate.addTimeIntervals(timeInterval: TimeInterval, number: Int): MyDate {
     val c = Calendar.getInstance()
